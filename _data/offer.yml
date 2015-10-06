@@ -1,0 +1,35 @@
+- title: Migracja do chmury.
+  slogan: Przygotujemy audyt infrastruktury, przedstawimy projekt oraz wykonamy migrację Twoich systemów do chmury.
+  color: grey lighten-2
+
+- title: Bezpieczeństwo i koszty
+  slogan: Zagwarantujemy bezpieczeństwo danych i wskażemy optymalny wybór usługi przedstawiając analizę kosztów
+  color: grey lighten-2
+
+- title: Systemy i aplikacje
+  slogan:  Zaprojektujemy i wykonamy strony/aplikacje przystosowane do chmury realizujące Twoje potrzeby biznesowe
+  color: grey lighten-2
+
+- title: Wirtualizacja
+  slogan: Projektowanie i utrzymywanie systemów sieciowych i serwerowych w infrastrukturze wirtualnej.
+  color: white
+
+- title: Systemy rozproszone
+  slogan: Budowa i nadzór nad rozproszonymi systemami przetwarzania i dostępu do danych.
+  color: white
+
+- title: Sieci programowalne
+  slogan: Tworzenie interfejsów do orkiestracji usług sieciowych.
+  color: white
+
+- title: Systemy samo-skalowalne
+  slogan: Budowa zarządzalnej infrastruktury serwerowej, bezpiecznej, nowoczesnej, samo-skalującej.
+  color: white
+
+- title: Analiza metod pracy IT
+  slogan: Konsulting w obszarze rozwijania (developmentu), testowania oraz  wdrażania systemów i aplikacji.
+  color: white
+
+- title: Analiza infrastruktury IT
+  slogan: Konsulting w obszarze IaaS, Saas, PaaS z analizą skali oraz wykorzystania modelu "pay per use".
+  color: white

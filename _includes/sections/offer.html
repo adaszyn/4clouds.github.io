@@ -1,0 +1,33 @@
+
+
+<section id="offer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h3>Oferta</h3>
+      </div>
+    </div>
+    <div class="row">
+      {% for item in site.data.offer %}
+      <div class="col s12 m12 l4">
+
+        <div class="card card-offer {{ item.color }}">
+          <div class="card-content">
+            <div class="card-title truncate grey-text text-darken-2">{{ item.title}}</div>
+            <p>{{ item.slogan}}</p>
+          </div>
+        </div>
+
+      </div>
+        {% assign newr = forloop.index | modulo:3 %}
+        {% if  newr == 0 %}
+          </div>
+          <div class="row">
+        {% endif %}
+      {% endfor %}
+    </div>  <!-- }row -->
+    <div class="row">
+      <div class="col s12">&nbsp;</div>
+    </div>
+  </div>
+</section>

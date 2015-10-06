@@ -1,0 +1,32 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 50 75">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g fill-rule="nonzero" transform="translate(-200,-332.375)">
+  <path fill="#F60" d="m225,332.38c-13.807,0-25,11.193-25,25s20,50,25,50,25-36.193,25-50-11.193-25-25-25zm0,10c8.2843,0,15,6.7157,15,15s-6.7157,15-15,15-15-6.7157-15-15,6.7157-15,15-15z"/>
+  <g transform="matrix(0.17254959,0,0,0.17254959,87.64736,274.26506)">
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="853.32" x="162.42" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="853.32" x="185.87" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="853.32" x="209.32" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="876.77" x="162.42" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="876.77" x="185.87" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="876.77" x="209.32" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="900.23" x="185.87" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="900.23" x="209.32" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="876.77" x="232.78" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="900.23" x="232.78" fill="#025"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="923.68" x="209.32" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="923.68" x="232.78" fill="#ff6d00"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="900.23" x="256.23" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="923.68" x="256.23" fill="#005c94"/>
+   <rect transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" height="21.389" width="21.389" y="947.13" x="232.78" fill="#025"/>
+  </g>
+ </g>
+</svg>

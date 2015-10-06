@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  {% include head.html %}
+</head>
+
+<body id="top">
+
+  <header>
+    <div class="navbar-fixed">
+
+      <nav class="top-nav">
+        <div class="container">
+
+          <div class="nav-wrapper">
+            <a href="./" class="brand-logo"><img src="img/4clouds-brand-logo.png" /></a>
+            <a style="cursor:pointer" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#offer">OFERTA</a></li>
+              <li><a href="#technology">TECHNOLOGIA</a></li>
+              <li><a href="#team">ZESPÓŁ</a></li>
+              <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+            <ul id="mobile-menu" class="side-nav">
+              <li><a href="#top">HOME</a></li>
+              <hr />
+              <li><a href="#offer">OFERTA</a></li>
+              <li><a href="#technology">TECHNOLOGIA</a></li>
+              <li><a href="#team">ZESPÓŁ</a></li>
+              <li><a href="#contact">KONTAKT</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  {{ content }} {% include scripts.html %} {% include footer.html %}
+</body>
+
+</html>

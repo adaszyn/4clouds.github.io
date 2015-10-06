@@ -1,0 +1,109 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+// Variables
+$primary-color: #f5f5f5 !default;
+$secondary-color: #005c94 !default;
+$navbar-font-color: #9e9e9e !default;
+$h1-fontsize: 5rem !default;
+$body-color: #cfd8dc !default;
+$footer-bg-color: #546e7a !default;
+// Import
+@import "materialize", "syntax-highlighting";
+
+// General
+body {
+  background-color: $body-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 200;
+}
+h2 {
+  font-size: $h2-fontsize;
+  line-height: 110%;
+  margin: ($h2-fontsize / 2) 0 ($h1-fontsize / 2.5) 0;
+}
+.btn,
+.btn-flat {
+  text-transform: none;
+  font-weight: 200;
+}
+
+// Navigation
+.brand-logo > img {
+  height: 26px;
+}
+
+// Footer
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+// Containers
+.valign-wrapper .valign {
+  width: 100%;
+}
+
+.team-image {
+  border:3px solid #fafafa;
+}
+
+.card-offer {
+  min-height: 160px;
+  width: 100%;
+}
+
+// Sections
+section {
+  //  border: 1px solid blue;
+}
+#slogan {
+  min-height: 450px;
+}
+#offer {
+  min-height: 450px;
+  padding-top: 2rem;
+}
+#offer .row {
+  margin-bottom: 0;
+}
+#technology {
+  min-height: 450px;
+  padding-top: 2rem;
+}
+#technology li {
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+#team {
+  min-height: 450px;
+  padding-top: 2rem;
+  margin-bottom: 0;
+  margin-top: -20px;
+}
+#contact {
+  position: relative;
+  height: 500px;
+  margin-bottom: 0;
+  margin-top: -20px;
+}
+#contact #map {
+  position: absolute;
+  height: 100%;
+  width:100%;
+}
+#contact #components {
+  position: absolute;
+  height: 100%;
+  width:100%;
+}
