@@ -2,7 +2,7 @@
 title: 4clouds.io | move your business to the cloud
 tag_text: 4clouds.io
 description: Solo is a Jekyll theme that supports single-page websites only, but supports them well.
-baseurl: "/beta"
+baseurl: ""
 # Build settings
 safe:         true
 markdown:     kramdown
