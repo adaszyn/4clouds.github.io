@@ -1,11 +1,12 @@
 ---
 layout: default
 title: HOME
-permalink: /
-lang: pl
+permalink: /en/
+lang: en
 ---
+{% assign offerTitle = "Offer" %}
 
-{% include sections/slogan.html %}
+{% include sections/slogan.html  %}
 {% include sections/offer.html %}
 {% include sections/partners.html %}
 {% include sections/technology.html %}

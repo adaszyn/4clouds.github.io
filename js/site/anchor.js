@@ -65,8 +65,8 @@
 			}
 
 			if (($section.offset().top + browserHeight) > documentHeight) {
-        return $section.offset().top;
-				return documentHeight - browserHeight;
+				return $section.offset().top;
+				//return documentHeight - browserHeight;
 			} else {
 				return $section.offset().top;
 			}

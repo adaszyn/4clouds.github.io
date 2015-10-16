@@ -1,14 +1,15 @@
+{% if page.lang == "pl" %}
+    {% assign offer = site.data.offer %}
+{% else %}
+    {% assign offer = site.data.offer_en %}
+{% endif %}
 
 
 <section id="offer">
   <div class="container">
+    <h3>{{ sections.offerTitle }}</h3>
     <div class="row">
-      <div class="col s12">
-        <h3>Oferta</h3>
-      </div>
-    </div>
-    <div class="row">
-      {% for item in site.data.offer %}
+      {% for item in offer %}
       <div class="col s12 m12 l4">
 
         <div class="card card-offer {{ item.color }}">

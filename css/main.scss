@@ -14,6 +14,19 @@ $footer-bg-color: #546e7a !default;
 // Import
 @import "materialize", "syntax-highlighting";
 
+
+@keyframes background-image-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
 // General
 body {
   background-color: $body-color;
@@ -67,14 +80,24 @@ section {
   //  border: 1px solid blue;
 }
 #slogan {
-  min-height: 450px;
+  min-height: 100vh;
 }
 #offer {
-  min-height: 450px;
+  min-height: 100vh;
   padding-top: 2rem;
+  background-image: url(../img/cloud-background.svg);
+  background-repeat: no-repeat;
+  background-size: 60% auto;
+  background-position: 100% 100%;
 }
 #offer .row {
   margin-bottom: 0;
+}
+#partners {
+  text-align: center;
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #technology {
   min-height: 450px;
@@ -86,10 +109,18 @@ section {
   line-height: 2rem;
 }
 #team {
+  background-image: url(../img/4clouds-white.svg);
+  background-size: 70% auto;
+  background-position: 50% 50%;
+  animation-timing-function: ease-in-out;
+  background-repeat: no-repeat;
+  background-color: #00AAFF;
   min-height: 450px;
   padding-top: 2rem;
   margin-bottom: 0;
+  padding-bottom: 60px;
   margin-top: -20px;
+  color: white;
 }
 #contact {
   position: relative;
@@ -106,4 +137,153 @@ section {
   position: absolute;
   height: 100%;
   width:100%;
+}
+.fluid {
+  min-width: 100%;
+  margin: 0;
+  padding: 15px;
+}
+.navbar-fixed {
+  height: 0;
+  max-height: 0;
+}
+nav {
+  background-color: white;
+}
+
+.flip-container {
+  z-index: 100;
+  perspective: 1000;
+  margin: auto auto calc(8vh - 60px);
+}
+.flip-container.flip .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 120px;
+  height: 120px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.front {
+  z-index: 2;
+  background: url(../img/read-more.svg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+  transform: rotateY(0deg);
+  border: 2px solid white;
+  transition: all 0.3s ease-out;
+  border-radius: 60px;
+  background-color: white;
+  color: #000000;
+}
+.front:hover {
+  border: 2px solid #8c8c8c;
+}
+.back {
+  border-radius: 60px;
+  background: url(../img/4clouds-grey-circle.svg) 0 0 no-repeat;
+  background-color: white;
+  transform: rotateY(180deg);
+  border: 2px solid white;
+  background-size: 100% 100%;
+}
+.orange.accent-4.opacity-1 {
+  background-color: rgba(255, 109, 0, 0.76) !important;
+}
+.slider .indicators .indicator-item.active {
+  background-color: rgba(255, 109, 0, 1);
+}
+div .caption {
+  background-color: rgba(0, 0, 0, 0.23);
+}
+.slider .slides li .caption {
+  left: 0;
+  min-height: 30vh;
+  right: 0;
+  top: 30%;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+  border-top: 1px solid rgba(255, 255, 255, 0.31);
+}
+.footer {
+  position: absolute;
+  left: 0;
+  top: 92vh;
+  z-index: 90;
+  height: 8vh;
+  width: 100%;
+  background-color: white;
+}
+.logo {
+  opacity: 0.7;
+  background-size: 70% auto;
+  background-position: 50% 50%;
+  min-height: 15vh;
+  background-repeat: no-repeat;
+  transition: all 0.2s ease-out;
+}
+.logo:hover {
+  opacity: 1.0;
+}
+.beyond-logo {
+  background-image: url(../img/partners/beyond.png);
+}
+.sinersio-logo {
+  background-image: url(../img/partners/sinersio.gif);
+}
+.aws-logo {
+  background-image: url(../img/partners/amazonwebservices.png);
+}
+.google-logo {
+  background-image: url(../img/partners/googlecloud.png);
+}
+.language-switcher:hover {
+  background-color: inherit;
+}
+.language-switcher span {
+  cursor: pointer;
+  transition: font-weight 0.2s ease-out;
+}
+.language-switcher span:hover {
+  font-weight: bold;
+}
+.partners {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+  padding-bottom: 20px;
+}
+.team-box {
+  background-color: transparent;
+  padding: 15px !important;
+}
+.team-box:hover {
+  background-color: rgba(0, 122, 188, 0.59);
+  padding: 15px !important;
+}
+.slogan-outer {
+  display: flex;
+  justify-content: center;
+}
+.slogan-inner > h3  {
+  margin-top: 0.656rem;
+}
+.slogan-inner {
+  align-self: center;
+}
+.grey-bottom-border {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.36);
+  padding-bottom: 15px;
 }

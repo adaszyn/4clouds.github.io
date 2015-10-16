@@ -1,0 +1,25 @@
+<div class="nav-wrapper">
+  <a href="/" class="brand-logo">
+    <img src="{{ site.url }}/img/4clouds-brand-logo.png" />
+  </a>
+  <a style="cursor:pointer" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+  <ul class="right hide-on-med-and-down">
+    {% if page.lang == "pl" %}
+        {% assign menu = site.data.menu %}
+    {% else %}
+        {% assign menu = site.data.menu_en %}
+    {% endif %}
+    {% for item in menu %}
+        <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+    {% endfor %}
+  </ul>
+  <ul id="mobile-menu" class="side-nav">
+    <li><a href="#top">HOME</a></li>
+    <hr />
+    <li><a href="#offer">OFERTA</a></li>
+    <li><a href="#partners">PARTNERZY</a></li>
+    <li><a href="#technology">TECHNOLOGIA</a></li>
+    <li><a href="#team">ZESPÓŁ</a></li>
+    <li><a href="#contact">KONTAKT</a></li>
+  </ul>
+</div>

@@ -1,17 +1,34 @@
-<section id="slogan" class="parallax-container valign-wrapper">
-  <div class="container">
-    <div class="center-align valign">
-      <h2 class="white-text">Uwolnimy Cię od zbędnych kosztów infrastruktury IT.</h2>
-      <p class="flow-text white-text">
-        Techologia jest dojrzała a oferta rynkowa usług róznorodna,<br /> pora zdecydować jak oszczedzając zapewnić sobie lepszą jakośc systemów i danych.
-<br /><br />
-      </p>
+{% if page.lang == "pl" %}
+    {% assign slogans = site.data.slogans %}
+{% else %}
+    {% assign slogans = site.data.slogans_en %}
+{% endif %}
 
-      <a href="#offer" class="waves-effect waves-light btn ">więcej</a>
+<section id="slogan" class="parallax-container valign-wrapper">
+    <div class="slider fullscreen">
+        <ul class="slides">
+          {% for item in slogans %}
+          <li>
+              <img src="{{ site.url }}/{{ item.i}}">
+              <div class="caption center-align valigns slogan-outer">
+                  <div class="slogan-inner">
+                      <h3>{{ item.h}}</h3>
+                      <h5 class="light text-lighten-3">{{ item.t}}</h5>
+                  </div>
+              </div>
+          </li>
+          {% endfor %}
+        </ul>
     </div>
-  </div>
-  <div class="parallax">
-    <img src="img/bg/cloud-sky.jpg" alt="sky">
-  </div>
+    <div class="flip-container">
+        <div class="flipper">
+            <div class="front">
+            </div>
+            <div class="back">
+            </div>
+        </div>
+    </div>
+    <div class="parallax">
+    </div>
+    <div class="footer"></div>
 </section>
-<br /<br />

@@ -4,9 +4,9 @@ tagline:              '4clouds'
 description:          '4clouds'
 
 # Build settings
-url:                  http://4clouds.github.io
+url:                  http://localhost:4000
 baseurl:              ''
-markdown: kramdown
+markdown:             kramdown
 highlighter:          pygments
 permalink:            pretty
 relative_permalinks:  true

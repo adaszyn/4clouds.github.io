@@ -1,10 +1,25 @@
 $(function() {
+    $('.flip-container').on('click', function() {
+        var element = document.querySelector(".flip-container");
+        element.classList.toggle("flip");
+        setTimeout(function () {
+            $('html, body').animate({
+                scrollTop: $('#offer').offset().top - 64
+            }, 500);
+        }, 800);
+        setTimeout(function() {
+            element.classList.toggle("flip");
+        }, 3000);
+    });
+
+
   $(".button-collapse").sideNav({
       menuWidth: 240, // Default is 240
       edge: 'left', // Choose the horizontal origin
       closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
     });
-  $('.parallax').parallax();
+  // $('.parallax').parallax();
+  $('.slider').slider({full_width: true, interval: 6000, indicators: false});
 
   $('a[href*=#]').anchor({
       transitionDuration : 500
@@ -34,7 +49,7 @@ $(function() {
     position: pos,
     map: map,
     title: '4clouds.io',
-    icon: 'img/marker.svg'
+    icon: '/img/marker.svg'
   });
 
 
