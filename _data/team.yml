@@ -1,21 +1,20 @@
 story: |
-    To przede wszystkim ciągła fascynacja technologią i rewolucją w dostępie do informacji i komunikacji. Spotkaliśmy się na lokalnym uniwersytecie
+    To przede wszystkim ciągła fascynacja technologią i rewolucją w dostępie do informacji i komunikacji. Spotkaliśmy się na lokalnym uniwersytecie,
     zakładając Uczelniane Centrum Komputerowe w okresie pionierskim Internetu i sieci rozległych. Po kilku latach przenieśliśmy się do jednej z najbardziej
-    zaawansowanej  technologicznie firm  w ZIelonej Górze  Advanced Digital Broadcast, gdzie spotkaliśmy wielu doskonałych inżynierów. Dla nich i z nimi
-    przez kilkanascie lat  skomplikowanych projektach z zakresu infastruktury i systemów IT z zastosowaniem najnowecześniejszych technologii i trendów
-    W trójkę założyliśmy 4clouds.io aby nasza stworzyć własną firmę i propagować nowe trendy, które, w co wierzymy, zasadniczo zmienią świat IT.
+    zaawansowanych  technologicznie firm  w Polsce  Advanced Digital Broadcast. W ADB podejmowaliśmy z sukcesem wiele wyzwań oraz spotkaliśmy wielu doskonałych specjalistów .
+    Dla nich i z nimi   przez kilkanaście lat projektowaliśmy i wdrażaliśmy rozwiązania  z zakresu infrastruktury i systemów IT stosując innowacyjne technologie
+    Razem założyliśmy 4clouds.io aby realizować naszą wizję kompleksowych usług dla wszystkich, którzy chcą wykorzystać nowe technologie, zyskując lepszą jakość wydając mniej.
 partners:
   - name:   Marek Adaszyński
-    title:  Partner, sieci WAN, zarządzanie projektami
+    title:  projekty,  infrastruktura,  kontakt z klientami i partnerami
     cls:    col s12 m2 offset-m4 center team-box
     img:    img/team/marek.jpg
 
   - name:   Wojtek Regeńczuk
-    title:  Partner, sieci WAN, zarządzanie projektami
+    title:  rozwiązania, systemy, aplikacje, integracja
     cls:    col s12 m2 center team-box
     img:    img/team/wojtek.jpg
 team_title: Nasz zespół
 team_body: |
-    To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie rozwijania i integrowania systemów IT dla firm.
-    Grupa składająca się z kilkunastu osób ma kompetencje będące kombinacja wiedzy i umiejętności z zakresu projektowania i utrzymywania
-    systemów serwerowych i sieciowych oraz tworzenia i rozwijaania sysetemów. Jesteśmy gotowi na każde wyzwanie.
+    To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie projektowania systemów IT dla firm.
+    Różnorodne kompetencje  pokrywają cały zakres umiejętności, niezbędnych do zaprojektowania i uruchomienia  złożonych rozwiązań IT. 

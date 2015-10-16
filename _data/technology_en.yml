@@ -1,43 +1,13 @@
-- title: Project and maintenance network systems, that includes
+- title: SERVERS AND NETWORKS
   body: |
-    <ol>
-      <li>infrastruktury serwerowej na platformach wirtualnych
-        <ol type="a">
-          <li>lokalnej (on-premises) platformy wirtualizacji Xen, KVM, VMware, </li>
-          <li>cloud Amazon EC2, S3, VPC, Route 53</li>
-        </ol>
-      </li>
-      <li>projektowania wydajnej sieci dostosowanej do transportu i przechowywania mediów
-        <ol type="a">
-          <li>budowa sieci multicastowych, IGMP, PIM, MSDP </li>
-        </ol>
-      </li>
-      <li>systemów przechowywania danych, pamięci masowych</li>
-      <li>migracji usług serwerowych do chmury w modelu IaaS, Saas, PaaS z analizą skali i możliwością wykorzystania modelu "pay per use"</li>
-      <li>zabezpieczenia transmisji i danych </li>
-    </ol>
+    Zajmujemy się projektowaniem, wdrażaniem oraz utrzymaniem systemów sieciowych, optymalizując je w zakresie wydajności oraz dostosowania do potrzeb klientów .
+    Naszą specjalnościa są sieci w tym bezprzewodowe   przystosowane do transportu i przechowywania mediów: sieci multicastowe IGMP, PIM, MSDP. Posiadamy kompetencje w zakresie systemów serwerowych, z wykorzystaniem technologii  wirtualizacyjnych VMWare, XEN, KVM ,oraz przechowywania danych, pamięci masowych sieci SAN.
+    Będąc autoryzowanym partnerem największych centrów danych doradzamy wybór dostawcy w modelu IaaS, SaaS,PaaS z analizą skali i wykorzystaniem modelu „pay per use” .Mamy doświadczenie z wykorzystaniem usług Amazon Web Service – EC2, S3, VPC, Route53.
 
-- title: Projektowanie, development, integracja, wdrażanie oraz utrzymanie systemów informatycznych
+- title: SYSTEMS AND APPLICATIONS
   body: |
-    <ol>
-      <li>Tworzenie systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym (odrębne biura na wszystkich kontynentach);</li>
-      <li>Projektowanie wydajnych systemów bazodanowych opartych na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN;</li>
-      <li>Tworzenie aplikacji webowych (full stack: strona serwerowa oraz opragramowanie klienta):</li>
-      <ol type="a">
-        <li>HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJs, AngularJs;</li>
-        <li>PHP; Zend Framework, WordPress, Drupal;</li>
-        <li>Java; Android, Tomcat, Spring, GWT;</li>
-      </ol>
-      </li>
-      <li>Wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT;</li>
-      <li>Doświadczenie w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemów kontroli wersji:
-        <ol type="a">
-          <li>Budowa aplikacji do zarządzania uprawnieniami do serwerów FTP;</li>
-          <li>Budowa aplikacji do zarządzania uprawnieniami do Apache Subversion;;</li>
-          <li>Doświadczenie w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink;;</li>
-        </ol>
-      </li>
-      <li>Wieloletnie doświadczenie w programowej obsłudze dokumentów PDF: tworzenie, edycja konwersja do i z formatów biurowych, podpis elektroniczny;</li>
-      <li>Doświadczenie w tworzeniu aplikacji opartych o rozproszone źródła danych: CouchDB;</li>
-      <li>Doświadczenie w skalowaniu systemów kolejkowania wiadomości: MQTT, AMQP.</li>
-    </ol>
+    Zajmujemy się projektowaniem , wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym. Projektujemy wydajne systemy  bazodanowe oparte na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN.
+    Naszą specjalnościa są aplikacje webowe (full stack: strona serwerowa oraz oprogramowanie klienta):HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJs, AngularJs; PHP; Zend Framework, WordPress, Drupal; Java; Android, Tomcat, Spring, GWT;
+    Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemami  kontroli wersji oraz  w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink.
+    Do wykorzystania są nasze kompetencje w zakresie programowej obsługi dokumentów PDF, zarządzania obiegiem i podpisem elektronicznym
+    Proponujemy wykonanie zleceń wykorzystujących rozproszone źródła danych: np CouchDB,  nierelacyjne bazy danych DynamoDB  oraz skalowanie systemów kolejkowania wiadomości: MQTT, AMQP
