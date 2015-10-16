@@ -4,7 +4,8 @@ title: HOME
 permalink: /en/
 lang: en
 ---
-{% assign offerTitle = "Offer" %}
+
+{% assign sections = site.data.sections_en %}
 
 {% include sections/slogan.html  %}
 {% include sections/offer.html %}
