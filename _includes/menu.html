@@ -10,16 +10,30 @@
         {% assign menu = site.data.menu_en %}
     {% endif %}
     {% for item in menu %}
-        <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+      <li><a href="{{ item.href }}" class="{{ item.cls }}">{{ item.text }}</a></li>
     {% endfor %}
+    {% if page.lang == "pl" %}
+      <li><a class="dropdown-button" data-activates="dd" style="cursor:pointer">PL<i class="material-icons right">arrow_drop_down</i></a></li>
+    {% else %}
+      <li><a class="dropdown-button" data-activates="dd" style="cursor:pointer">EN<i class="material-icons right">arrow_drop_down</i></a></li>
+    {% endif %}
   </ul>
   <ul id="mobile-menu" class="side-nav">
     <li><a href="#top">HOME</a></li>
     <hr />
-    <li><a href="#offer">OFERTA</a></li>
-    <li><a href="#partners">PARTNERZY</a></li>
-    <li><a href="#technology">TECHNOLOGIA</a></li>
-    <li><a href="#team">ZESPÓŁ</a></li>
-    <li><a href="#contact">KONTAKT</a></li>
+    {% for item in menu %}
+        <li><a href="{{ item.href }}" class="{{ item.cls }}">{{ item.text }}</a></li>
+    {% endfor %}
+    <hr />
+    {% if page.lang == "pl" %}
+      <li><a href="/en/" class="bold blue-text text-darken-5">EN</a></li>
+    {% else %}
+      <li><a href="/" class="bold blue-text text-darken-5">PL</a></li>
+    {% endif %}
   </ul>
 </div>
+<!-- Dropdown Structure -->
+<ul id="dd" class="dropdown-content">
+  <li><a href="/">PL</a></li>
+  <li><a href="/en/">EN</a></li>
+</ul>

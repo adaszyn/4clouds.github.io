@@ -1,28 +1,33 @@
 $(function() {
-    $('.flip-container').on('click', function() {
-        var element = document.querySelector(".flip-container");
-        element.classList.toggle("flip");
-        setTimeout(function () {
-            $('html, body').animate({
-                scrollTop: $('#offer').offset().top - 64
-            }, 500);
-        }, 800);
-        setTimeout(function() {
-            element.classList.toggle("flip");
-        }, 3000);
-    });
+  $('.flip-container').on('click', function() {
+    var element = document.querySelector(".flip-container");
+    element.classList.toggle("flip");
+    setTimeout(function() {
+      $('html, body').animate({
+        scrollTop: $('#offer').offset().top - 64
+      }, 500);
+    }, 800);
+    setTimeout(function() {
+      element.classList.toggle("flip");
+    }, 3000);
+  });
 
+  $(".dropdown-button").dropdown();
 
   $(".button-collapse").sideNav({
-      menuWidth: 240, // Default is 240
-      edge: 'left', // Choose the horizontal origin
-      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    });
+    menuWidth: 240, // Default is 240
+    edge: 'left', // Choose the horizontal origin
+    closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  });
   // $('.parallax').parallax();
-  $('.slider').slider({full_width: true, interval: 6000, indicators: false});
+  $('.slider').slider({
+    full_width: true,
+    interval: 6000,
+    indicators: false
+  });
 
   $('a[href*=#]').anchor({
-      transitionDuration : 500
+    transitionDuration: 500
   });
 
   var pos = {
