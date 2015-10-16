@@ -7,12 +7,12 @@ story: |
 partners:
   - name:   Marek Adaszyński
     title:  Partner, sieci WAN, zarządzanie projektami
-    cls:    col s12 m2 offset-m4 center team-box
+    cls:    col s12 m3 offset-m2 center team-box
     img:    img/team/marek.jpg
 
   - name:   Wojtek Regeńczuk
     title:  Partner, sieci WAN, zarządzanie projektami
-    cls:    col s12 m2 center team-box
+    cls:    col s12 m3 offset-m1 center team-box
     img:    img/team/wojtek.jpg
 team_title: Nasz zespół
 team_body: |

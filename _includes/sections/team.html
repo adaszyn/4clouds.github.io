@@ -6,13 +6,12 @@
 
 <section id="team">
     <div class="container">
-        <div class="row center-align">
+        <div class="row">
             <div class="col s12">
-                <h3 class="grey-bottom-border">{{ sections.team }}</h3>
+                <h3 class="grey-bottom-border center">{{ sections.team }}</h3>
             </div>
         </div>
-        <div class="row center-align">
-            <img src="img/squares.svg" width="100px"/>
+        <div class="row">
             <p>{{ team.story}}</p>
 
             <div class="row"></div>
@@ -22,18 +21,16 @@
                     <img src="{{ site.url }}/{{ item.img }}" width="70%" class="team-image"/>
                 </div>
                 <div class="row">
-                    <h4>{{ item.name }}</h4>
-                    <p>{{ item.title }}</p>
+                    <h4 class="center">{{ item.name }}</h4>
+                    <p class="center">{{ item.title }}</p>
                 </div>
             </div>
             {% endfor %}
         </div>
-        <div class="row center-align">
-            <div class="col s12 m12 l12 center-align">
-                <h3>{{team.team_title}}</h3>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h3 class="grey-bottom-border center">{{team.team_title}}</h3>
                 <p>{{team.team_body}}</p>
-                <img src="img/squares.svg" width="100px"/>
-
             </div>
 
         </div>

@@ -105,8 +105,9 @@ section {
 }
 #technology li, #technology p {
   font-weight: 300;
-  font-size: 1.1rem;
-  line-height: 2rem;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+  text-align: justify;
 }
 #team {
   background-image: url(../img/4clouds-white.svg);
@@ -121,6 +122,12 @@ section {
   padding-bottom: 60px;
   margin-top: -20px;
   color: white;
+  font-size: 1.2rem;
+  line-height: 2.1rem;
+
+}
+#team p {
+  text-align: justify;
 }
 #contact {
   position: relative;

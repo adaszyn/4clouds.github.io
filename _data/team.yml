@@ -7,14 +7,14 @@ story: |
 partners:
   - name:   Marek Adaszyński
     title:  projekty,  infrastruktura,  kontakt z klientami i partnerami
-    cls:    col s12 m2 offset-m4 center team-box
+    cls:    col s12 m3 offset-m2 center team-box
     img:    img/team/marek.jpg
 
   - name:   Wojtek Regeńczuk
     title:  rozwiązania, systemy, aplikacje, integracja
-    cls:    col s12 m2 center team-box
+    cls:    col s12 m3 offset-m2 center team-box
     img:    img/team/wojtek.jpg
 team_title: Nasz zespół
 team_body: |
     To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie projektowania systemów IT dla firm.
-    Różnorodne kompetencje  pokrywają cały zakres umiejętności, niezbędnych do zaprojektowania i uruchomienia  złożonych rozwiązań IT. 
+    Różnorodne kompetencje  pokrywają cały zakres umiejętności, niezbędnych do zaprojektowania i uruchomienia  złożonych rozwiązań IT.
