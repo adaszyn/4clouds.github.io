@@ -1,3 +1,9 @@
+{% if page.lang == "pl" %}
+    {% assign team = site.data.team %}
+{% else %}
+    {% assign team = site.data.team_en %}
+{% endif %}
+
 <section id="team">
     <div class="container">
         <div class="row center-align">
@@ -7,45 +13,25 @@
         </div>
         <div class="row center-align">
             <img src="img/squares.svg" width="100px"/>
-            <p>
-                To przede wszystkim ciągła fascynacja technologią i rewolucją w dostępie do informacji i komunikacji. Spotkaliśmy się na lokalnym uniwersytecie
-                zakładając Uczelniane Centrum Komputerowe w okresie pionierskim Internetu i sieci rozległych. Po kilku latach przenieśliśmy się do jednej z najbardziej
-                zaawansowanej  technologicznie firm  w ZIelonej Górze  Advanced Digital Broadcast, gdzie spotkaliśmy wielu doskonałych inżynierów. Dla nich i z nimi
-                przez kilkanascie lat  skomplikowanych projektach z zakresu infastruktury i systemów IT z zastosowaniem najnowecześniejszych technologii i trendów
-                W trójkę założyliśmy 4clouds.io aby nasza stworzyć własną firmę i propagować nowe trendy, które, w co wierzymy, zasadniczo zmienią świat IT.
-            </p>
+            <p>{{ team.story}}</p>
 
-            <div class="row">
-
-            </div>
-            <div class="col s12 m2 offset-m4 center team-box">
+            <div class="row"></div>
+            {% for item in team.partners %}
+            <div class="{{ item.cls }}">
                 <div class="row">
-                    <img src="{{ site.url }}/img/team/marek.jpg" width="70%" class="team-image"/>
+                    <img src="{{ site.url }}/{{ item.img }}" width="70%" class="team-image"/>
                 </div>
                 <div class="row">
-                    <h4>Marek Adaszyński</h4>
-                    <p>Partner, sieci WAN, zarządzanie projektami</p>
-                </div>
-            </div>
-            <div class="col s12 m2 center team-box">
-                <div class="row">
-                    <img src="{{ site.url }}/img/team/wojtek.jpg" width="70%" class="team-image"/>
-                </div>
-                <div class="row">
-                    <h4>Wojtek Regeńczuk</h4>
-                    <p>Partner, sieci WAN, zarządzanie projektami</p>
+                    <h4>{{ item.name }}</h4>
+                    <p>{{ item.title }}</p>
                 </div>
             </div>
+            {% endfor %}
         </div>
         <div class="row center-align">
             <div class="col s12 m12 l12 center-align">
-                <h3>Nasz zespół</h3>
-                <p>
-                    To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie rozwijania i integrowania systemów IT dla firm.
-                    Grupa składająca się z kilkunastu osób ma kompetencje będące kombinacja wiedzy i umiejętności z zakresu projektowania i utrzymywania
-                    systemów serwerowych i sieciowych oraz tworzenia i rozwijaania sysetemów. Jesteśmy gotowi na każde wyzwanie.
-
-                </p>
+                <h3>{{team.team_title}}</h3>
+                <p>{{team.team_body}}</p>
                 <img src="img/squares.svg" width="100px"/>
 
             </div>
