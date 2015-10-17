@@ -18,3 +18,23 @@ team_title: Nasz zespół
 team_body: |
     To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie projektowania systemów IT dla firm.
     Różnorodne kompetencje  pokrywają cały zakres umiejętności, niezbędnych do zaprojektowania i uruchomienia  złożonych rozwiązań IT.
+team_items:
+  - cls: 'col m2 offset-m1 s6'
+    url: '/img/logos/team/coders.svg'
+    name: 'Programiści'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/projectmanagers.svg'
+    name: 'Projektanci'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/administrators.svg'
+    name: 'Administratorzy'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/integrate.svg'
+    name: 'Integratorzy'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/testers.svg'
+    name: 'Testerzy'

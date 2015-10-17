@@ -3,6 +3,15 @@
     Zajmujemy się projektowaniem, wdrażaniem oraz utrzymaniem systemów sieciowych, optymalizując je w zakresie wydajności oraz dostosowania do potrzeb klientów .
     Naszą specjalnościa są sieci w tym bezprzewodowe   przystosowane do transportu i przechowywania mediów: sieci multicastowe IGMP, PIM, MSDP. Posiadamy kompetencje w zakresie systemów serwerowych, z wykorzystaniem technologii  wirtualizacyjnych VMWare, XEN, KVM ,oraz przechowywania danych, pamięci masowych sieci SAN.
     Będąc autoryzowanym partnerem największych centrów danych doradzamy wybór dostawcy w modelu IaaS, SaaS,PaaS z analizą skali i wykorzystaniem modelu „pay per use” .Mamy doświadczenie z wykorzystaniem usług Amazon Web Service – EC2, S3, VPC, Route53.
+  icons:
+    - url: '/img/logos/amazon.png'
+      cls: 'col s6 m4 l2 offset-l3'
+
+    - url: '/img/logos/vmware.png'
+      cls: 'col s6 m4 l2'
+
+    - url: '/img/logos/xen.png'
+      cls: 'col s12 m4 l2'
 
 - title: SYSTEMY I APLIKACJE
   body: |
@@ -11,3 +20,21 @@
     Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemami  kontroli wersji oraz  w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink.
     Do wykorzystania są nasze kompetencje w zakresie programowej obsługi dokumentów PDF, zarządzania obiegiem i podpisem elektronicznym
     Proponujemy wykonanie zleceń wykorzystujących rozproszone źródła danych: np CouchDB,  nierelacyjne bazy danych DynamoDB  oraz skalowanie systemów kolejkowania wiadomości: MQTT, AMQP
+  icons:
+    - url: '/img/logos/android.png'
+      cls: 'col l2 m3 s6'
+
+    - url: '/img/logos/angular.png'
+      cls: 'col l2 m3 s6'
+
+    - url: '/img/logos/jquery.gif'
+      cls: 'col l2 m3 s6'
+
+    - url: '/img/logos/java.png'
+      cls: 'col l2 m3 s6'
+
+    - url: '/img/logos/nodejs.png'
+      cls: 'col l2 m6 s6'
+
+    - url: '/img/logos/postgres.png'
+      cls: 'col l2 m6 s6'

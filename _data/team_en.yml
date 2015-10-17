@@ -19,3 +19,23 @@ team_body: |
     To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie rozwijania i integrowania systemów IT dla firm.
     Grupa składająca się z kilkunastu osób ma kompetencje będące kombinacja wiedzy i umiejętności z zakresu projektowania i utrzymywania
     systemów serwerowych i sieciowych oraz tworzenia i rozwijaania sysetemów. Jesteśmy gotowi na każde wyzwanie.
+team_items:
+  - cls: 'col m2 offset-m1 s6'
+    url: '/img/logos/team/coders.svg'
+    name: 'Coders'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/projectmanagers.svg'
+    name: 'Designers'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/administrators.svg'
+    name: 'Admins'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/integrate.svg'
+    name: 'Integrators'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/testers.svg'
+    name: 'Testers'

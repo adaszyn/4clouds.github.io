@@ -20,11 +20,11 @@
   </ul>
   <ul id="mobile-menu" class="side-nav">
     <li><a href="#top">HOME</a></li>
-    <hr />
+    <li><hr /></li>
     {% for item in menu %}
         <li><a href="{{ item.href }}" class="{{ item.cls }}">{{ item.text }}</a></li>
     {% endfor %}
-    <hr />
+    <li><hr /></li>
     {% if page.lang == "pl" %}
       <li><a href="/en/" class="bold blue-text text-darken-5">EN</a></li>
     {% else %}

@@ -1,35 +1,44 @@
 - title: Cloud migration.
   slogan: We prepe infrastructure audits, we prepare project plan and we make the migration of your systems to the cloud.
   color: grey lighten-2
+  cls: 'col s12 m6 l4'
 
 - title: Bezpieczeństwo i koszty
   slogan: Zagwarantujemy bezpieczeństwo danych i wskażemy optymalny wybór usługi przedstawiając analizę kosztów
   color: grey lighten-2
+  cls: 'col s12 m6 l4'
 
 - title: Systemy i aplikacje
   slogan: Zaprojektujemy i wykonamy strony/aplikacje przystosowane do chmury realizujące Twoje potrzeby biznesowe
   color: grey lighten-2
+  cls: 'col s12 m12 l4'
 
 - title: Wirtualizacja
   slogan: Projektowanie i utrzymywanie systemów sieciowych i serwerowych w infrastrukturze wirtualnej.
   color: white
+  cls: 'col s12 m6 l4'
 
 - title: Systemy rozproszone
   slogan: Budowa i nadzór nad rozproszonymi systemami przetwarzania i dostępu do danych.
   color: white
+  cls: 'col s12 m6 l4'
 
 - title: Sieci programowalne
   slogan: Tworzenie interfejsów do orkiestracji usług sieciowych.
   color: white
+  cls: 'col s12 m12 l4'
 
 - title: Systemy samo-skalowalne
   slogan: Budowa zarządzalnej infrastruktury serwerowej, bezpiecznej, nowoczesnej, samo-skalującej.
   color: white
+  cls: 'col s12 m6 l4'
 
 - title: Analiza metod pracy IT
   slogan: Konsulting w obszarze rozwijania (developmentu), testowania oraz  wdrażania systemów i aplikacji.
   color: white
+  cls: 'col s12 m6 l4'
 
 - title: Analiza infrastruktury IT
   slogan: Konsulting w obszarze IaaS, Saas, PaaS z analizą skali oraz wykorzystania modelu "pay per use".
   color: white
+  cls: 'col s12 m12 l4'

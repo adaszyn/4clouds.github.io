@@ -1,19 +1,15 @@
-{% if page.lang == "pl" %}
-    {% assign slogans = site.data.slogans %}
-{% else %}
-    {% assign slogans = site.data.slogans_en %}
-{% endif %}
-
-<section id="slogan" class="parallax-container valign-wrapper">
+<section id="slogan" class="valign-wrapper">
     <div class="slider fullscreen">
         <ul class="slides">
           {% for item in slogans %}
           <li>
               <img src="{{ site.url }}/{{ item.i}}">
-              <div class="caption center-align valigns slogan-outer">
-                  <div class="slogan-inner container">
-                      <h3>{{ item.h}}</h3>
-                      <h5 class="light text-lighten-3">{{ item.t}}</h5>
+              <div class="caption center-align slogan-outer">
+                  <div class="slogan-inner valign">
+                    <div class="container">
+                      <h3>{{ item.h }}</h3>
+                      <h5 class="light text-lighten-3">{{ item.t }}</h5>
+                    </div>
                   </div>
               </div>
           </li>
@@ -28,7 +24,5 @@
             </div>
         </div>
     </div>
-    <div class="parallax">
-    </div>
-    <div class="footer"></div>
+    <div class="slogan-footer"></div>
 </section>

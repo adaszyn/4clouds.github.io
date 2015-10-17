@@ -1,39 +1,38 @@
-{% if page.lang == "pl" %}
-    {% assign team = site.data.team %}
-{% else %}
-    {% assign team = site.data.team_en %}
-{% endif %}
-
 <section id="team">
     <div class="container">
+        <h3 class="white-bottom-border">{{ sections.team }}</h3>
+        <div class="row">
+          <div class="col s12">
+            <p>{{ team.story}}</p>
+          </div>
+        </div>
+        <div class="row">
+          {% for item in team.partners %}
+          <div class="{{ item.cls }}">
+              <div class="row">
+                  <img src="{{ site.url }}/{{ item.img }}" width="70%" class="team-image"/>
+              </div>
+              <div class="row">
+                  <h4 class="center">{{ item.name }}</h4>
+                  <p style="text-align:center">{{ item.title }}</p>
+              </div>
+          </div>
+          {% endfor %}
+        </div>
         <div class="row">
             <div class="col s12">
-                <h3 class="grey-bottom-border center">{{ sections.team }}</h3>
-            </div>
-        </div>
-        <div class="row">
-            <p>{{ team.story}}</p>
-
-            <div class="row"></div>
-            {% for item in team.partners %}
-            <div class="{{ item.cls }}">
-                <div class="row">
-                    <img src="{{ site.url }}/{{ item.img }}" width="70%" class="team-image"/>
-                </div>
-                <div class="row">
-                    <h4 class="center">{{ item.name }}</h4>
-                    <p style="text-align:center">{{ item.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <h3 class="grey-bottom-border center">{{team.team_title}}</h3>
+                <h3 class="white-bottom-border">{{team.team_title}}</h3>
                 <p>{{team.team_body}}</p>
             </div>
-
         </div>
-
+        <div class="row">
+          {% for icon in team.team_items %}
+          <div class="{{ icon.cls }} center-align">
+              <div class="team-logo" style="background-image: url({{ icon.url }})">
+                <div class="team-logo-txt">{{ icon.name }}</div>
+              </div>
+          </div>
+          {% endfor %}
+        </div>
     </div>
 </section>

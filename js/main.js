@@ -1,4 +1,5 @@
 $(function() {
+
   $('.flip-container').on('click', function() {
     var element = document.querySelector(".flip-container");
     element.classList.toggle("flip");
@@ -12,7 +13,9 @@ $(function() {
     }, 3000);
   });
 
-  $(".dropdown-button").dropdown();
+  $(".dropdown-button").dropdown({
+    belowOrigin: true
+  });
 
   $(".button-collapse").sideNav({
     menuWidth: 240, // Default is 240
@@ -20,9 +23,10 @@ $(function() {
     closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
   });
   // $('.parallax').parallax();
+
   $('.slider').slider({
     full_width: true,
-    interval: 6000,
+    interval: 10000,
     indicators: false
   });
 
