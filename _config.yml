@@ -10,14 +10,21 @@ markdown:             kramdown
 highlighter:          pygments
 permalink:            pretty
 relative_permalinks:  true
-
+sass:
+    style: compressed
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  profile: false
+  ignore:
+    envs: [local]
 exclude: ["README.md"]
 
 # About/contact
 author:
   name:               W.Regenczuk
   url:                https://wregen.github.io
-  email:              W.Regenczuk@gmail.com
+  email:              W.Regenczuk@4clouds.io
 
 # Custom vars
-version:              1.0.0
+version:              1.1.0

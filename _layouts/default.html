@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 
@@ -18,7 +21,14 @@
     </div>
   </header>
 
-  {{ content }} {% include scripts.html %} {% include footer.html %}
+  {{ content }}
+
+  {% include scripts.html %}
+  {% include footer.html %}
+
+  <div class="btn-top hide-on-small-only">
+    <a href="#top"><i class="material-icons">arrow_drop_up</i></a>
+  </div>
 </body>
 
 </html>
