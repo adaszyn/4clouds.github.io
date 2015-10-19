@@ -60,7 +60,7 @@ $(function() {
     position: pos,
     map: map,
     title: '4clouds.io',
-    icon: '/img/marker.svg'
+    icon: '/img/marker.png'
   });
 
 
