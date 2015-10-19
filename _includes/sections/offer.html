@@ -1,19 +1,13 @@
-
-
 <section id="offer">
   <div class="container">
+    <h3>{{ sections.offer }}</h3>
     <div class="row">
-      <div class="col s12">
-        <h3>Oferta</h3>
-      </div>
-    </div>
-    <div class="row">
-      {% for item in site.data.offer %}
-      <div class="col s12 m12 l4">
+      {% for item in offer %}
+      <div class="{{ item.cls }}">
 
         <div class="card card-offer {{ item.color }}">
           <div class="card-content">
-            <div class="card-title truncate grey-text text-darken-2">{{ item.title}}</div>
+            <div class="card-title truncate">{{ item.title}}</div>
             <p>{{ item.slogan}}</p>
           </div>
         </div>

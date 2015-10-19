@@ -4,7 +4,7 @@
     <div class="section container">
       <div class="row">
         <div class="col s12">
-          <h3>Kontakt</h3>
+          <h3>{{ sections.contact }}</h3>
         </div>
       </div>
       <div class="row">
@@ -12,17 +12,11 @@
 
           <div class="card blue-grey darken-1 ">
             <div class="card-content white-text">
-              <p class="flow-text">
-                4clouds.io&nbsp;s.c.
-                <br />II Armii 48/9, 65-936
-                <br />Zielona&nbsp;Góra, Polska
-              </p>
+              <p class="flow-text">{{ contact.address}}</p>
               <p class="flow-text"><br /></p>
-
               <p class="flow-text">
-                email:&nbsp;contact@4clouds.io
-                <br /> telefon:&nbsp;+48&nbsp;601&nbsp;888&nbsp;105
-                <br />
+                {{ contact.email}}<br />
+                {{ contact.phone}}<br />
               </p>
             </div>
           </div>

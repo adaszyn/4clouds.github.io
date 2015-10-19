@@ -1,0 +1,10 @@
+{% if page.lang == "pl" %}
+  {% assign backUrl = '/' %}
+{% else %}
+  {% assign backUrl = '/en/' %}
+{% endif %}
+<div class="nav-wrapper">
+  <a href="{{ backUrl }}" class="brand-logo">
+    <img src="/img/4clouds-brand-logo.png" />
+  </a>
+</div>

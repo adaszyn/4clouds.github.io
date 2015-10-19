@@ -1,23 +1,32 @@
 # Site settings
-title:                4clouds
+title:                '4clouds.io | zmigrujemy Twoje systemy i dane do chmury'
+title_en:             '4clouds.io | move your business to the cloud'
 tagline:              '4clouds'
-description:          '4clouds'
+description:          'Migracja do chmury. Bezpieczeństwo i koszty. Systemy i aplikacje.'
+description_en:       'Cloud migration. Security and costs. Systems and applications.'
 
 # Build settings
-url:                  http://4clouds.github.io
+url:                  http://4clouds.io
 baseurl:              ''
-markdown: kramdown
+markdown:             kramdown
 highlighter:          pygments
 permalink:            pretty
 relative_permalinks:  true
-
+sass:
+    style: compressed
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  profile: false
+  ignore:
+    envs: [local]
 exclude: ["README.md"]
 
 # About/contact
 author:
   name:               W.Regenczuk
   url:                https://wregen.github.io
-  email:              W.Regenczuk@gmail.com
+  email:              W.Regenczuk@4clouds.io
 
 # Custom vars
-version:              1.0.0
+version:              1.1.0

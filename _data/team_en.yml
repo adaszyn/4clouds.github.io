@@ -1,0 +1,41 @@
+story: |
+    It is primarily a continuous fascination of technology and revolution in the access to the information.
+    We met at the university, when we created the University Computer Center during the pioneer Internet and wide area networks period.
+    After a few years we moved to one of the most technologically advanced companies in Poland: Advanced Digital Broadcast.
+    In ADB we dealt with challenges that faced us and we met many excellent specialists.
+    For them and with them for several years we were designing and implementing solutions for infrastructure and IT systems using innovative technologies.
+    Together we founded 4clouds.io to pursue our vision of comprehensive services for all who want to use new technologies, getting better quality and spending less.
+partners:
+  - name:   Marek Adaszyński
+    title:  projects, infrastructure, customer and partners contact
+    cls:    col s12 m3 offset-m2 center team-box
+    img:    img/team/marek.jpg
+
+  - name:   Wojtek Regeńczuk
+    title:  solutions, systems, applications, integration
+    cls:    col s12 m3 offset-m1 center team-box
+    img:    img/team/wojtek.jpg
+team_title: Our team
+team_body: |
+    Our team of engineers possess extensive knowledge and unique experience in the area of IT systems designing for large organizations.
+    Various competencies cover the entire range of skills required for the design, development and deployment of complex IT solutions.
+team_items:
+  - cls: 'col m2 offset-m1 s6'
+    url: '/img/logos/team/coders.svg'
+    name: 'Coders'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/projectmanagers.svg'
+    name: 'Designers'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/administrators.svg'
+    name: 'Admins'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/integrate.svg'
+    name: 'Integrators'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/testers.svg'
+    name: 'Testers'

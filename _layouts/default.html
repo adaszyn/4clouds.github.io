@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
 
@@ -12,32 +15,23 @@
 
       <nav class="top-nav">
         <div class="container">
-
-          <div class="nav-wrapper">
-            <a href="./" class="brand-logo"><img src="img/4clouds-brand-logo.png" /></a>
-            <a style="cursor:pointer" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#offer">OFERTA</a></li>
-              <li><a href="#technology">TECHNOLOGIA</a></li>
-              <li><a href="#team">ZESPÓŁ</a></li>
-              <li><a href="#contact">KONTAKT</a></li>
-            </ul>
-            <ul id="mobile-menu" class="side-nav">
-              <li><a href="#top">HOME</a></li>
-              <hr />
-              <li><a href="#offer">OFERTA</a></li>
-              <li><a href="#technology">TECHNOLOGIA</a></li>
-              <li><a href="#team">ZESPÓŁ</a></li>
-              <li><a href="#contact">KONTAKT</a></li>
-            </ul>
-          </div>
-
+            {% include menu.html %}
         </div>
       </nav>
     </div>
   </header>
 
-  {{ content }} {% include scripts.html %} {% include footer.html %}
+  {{ content }}
+
+  {% include scripts.html %}
+  {% include footer.html %}
+
+  <div class="btn-top hide-on-small-only">
+    <a href="#top"><i class="material-icons">arrow_drop_up</i></a>
+  </div>
+
+  {% include cookie.html %}
+
 </body>
 
 </html>

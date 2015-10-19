@@ -1,68 +1,27 @@
-<section id="technology" class="blue-grey darken-3">
-  <div class="container white-text">
-    <h3>Technologia</h3>
+<section id="technology">
+  <div class="container">
+    <h3>{{ sections.technology }}</h3>
+    {% for item in technologies %}
     <div class="row">
       <div class="col s12">
-
-        <div class="card blue-grey darken-2">
+        <div class="card">
           <div class="card-content">
-            <div class="card-title">
-              Projektowanie i utrzymywanie systemów sieciowych ze szczególnym uwzględnieniem:
-            </div>
-            <ol>
-              <li>infrastruktury serwerowej na platformach wirtualnych
-                <ol type="a">
-                  <li>lokalnej (on-premises) platformy wirtualizacji Xen, KVM, VMware, </li>
-                  <li>cloud Amazon EC2, S3, VPC, Route 53</li>
-                </ol>
-              </li>
-              <li>projektowania wydajnej sieci dostosowanej do transportu i przechowywania mediów
-                <ol type="a">
-                  <li>budowa sieci multicastowych, IGMP, PIM, MSDP </li>
-                </ol>
-              </li>
-              <li>systemów przechowywania danych, pamięci masowych</li>
-              <li>migracji usług serwerowych do chmury w modelu IaaS, Saas, PaaS z analizą skali i możliwością wykorzystania modelu "pay per use"</li>
-              <li>zabezpieczenia transmisji i danych </li>
-            </ol>
+            <h5 class="card-title">{{ item.title }}:</h5>
+            <p class="flow-text">{{ item.body }}</p>
           </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12">
-        <div class="card blue-grey darken-2">
-          <div class="card-content">
-            <div class="card-title">
-              Projektowanie, development, integracja, wdrażanie oraz utrzymanie systemów informatycznych:
+          <div class="card-action">
+            <div class="row">
+              {% for icon in item.icons %}
+              <div class="{{ icon.cls }}">
+                <div class="technology-logo" style="background-image: url({{ icon.url }})"></div>
+              </div>
+              {% endfor %}
             </div>
-            <ol>
-              <li>Tworzenie systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym (odrębne biura na wszystkich kontynentach);</li>
-              <li>Projektowanie wydajnych systemów bazodanowych opartych na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN;</li>
-              <li>Tworzenie aplikacji webowych (full stack: strona serwerowa oraz opragramowanie klienta):</li>
-              <ol type="a">
-                <li>HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJs, AngularJs;</li>
-                <li>PHP; Zend Framework, WordPress, Drupal;</li>
-                <li>Java; Android, Tomcat, Spring, GWT;</li>
-              </ol>
-              </li>
-              <li>Wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT;</li>
-              <li>Doświadczenie w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemów kontroli wersji:
-                <ol type="a">
-                  <li>Budowa aplikacji do zarządzania uprawnieniami do serwerów FTP;</li>
-                  <li>Budowa aplikacji do zarządzania uprawnieniami do Apache Subversion;;</li>
-                  <li>Doświadczenie w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink;;</li>
-                </ol>
-              </li>
-              <li>Wieloletnie doświadczenie w programowej obsłudze dokumentów PDF: tworzenie, edycja konwersja do i z formatów biurowych, podpis elektroniczny;</li>
-              <li>Doświadczenie w tworzeniu aplikacji opartych o rozproszone źródła danych: CouchDB;</li>
-              <li>Doświadczenie w skalowaniu systemów kolejkowania wiadomości: MQTT, AMQP.</li>
-            </ol>
           </div>
         </div>
       </div>
     </div>
+    {% endfor %}
     <div class="row">
       <div class="col s12">&nbsp;</div>
     </div>

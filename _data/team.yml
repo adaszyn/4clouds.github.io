@@ -1,0 +1,41 @@
+story: |
+    To przede wszystkim ciągła fascynacja technologią i rewolucją w dostępie do informacji i komunikacji.
+    Spotkaliśmy się na lokalnym uniwersytecie, zakładając Uczelniane Centrum Komputerowe w okresie pionierskim Internetu i sieci rozległych.
+    Po kilku latach przenieśliśmy się do jednej z najbardziej zaawansowanych technologicznie firm w Polsce Advanced Digital Broadcast.
+    W ADB podejmowaliśmy z sukcesem wiele wyzwań oraz spotkaliśmy wielu doskonałych specjalistów.
+    Dla nich i z nimi przez kilkanaście lat projektowaliśmy i wdrażaliśmy rozwiązania z zakresu infrastruktury i systemów IT stosując innowacyjne technologie.
+    Razem założyliśmy 4clouds.io aby realizować naszą wizję kompleksowych usług dla wszystkich, którzy chcą wykorzystać nowe technologie, zyskując lepszą jakość wydając mniej.
+partners:
+  - name:   Marek Adaszyński
+    title:  projekty,  infrastruktura,  kontakt z klientami i partnerami
+    cls:    col s12 m3 offset-m2 center team-box
+    img:    img/team/marek.jpg
+
+  - name:   Wojtek Regeńczuk
+    title:  rozwiązania, systemy, aplikacje, integracja
+    cls:    col s12 m3 offset-m2 center team-box
+    img:    img/team/wojtek.jpg
+team_title: Nasz zespół
+team_body: |
+    To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie projektowania systemów IT dla firm.
+    Różnorodne kompetencje  pokrywają cały zakres umiejętności, niezbędnych do zaprojektowania i uruchomienia  złożonych rozwiązań IT.
+team_items:
+  - cls: 'col m2 offset-m1 s6'
+    url: '/img/logos/team/coders.svg'
+    name: 'Programiści'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/projectmanagers.svg'
+    name: 'Projektanci'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/administrators.svg'
+    name: 'Administratorzy'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/integrate.svg'
+    name: 'Integratorzy'
+
+  - cls: 'col m2 s6'
+    url: '/img/logos/team/testers.svg'
+    name: 'Testerzy'

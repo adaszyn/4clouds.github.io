@@ -1,7 +1,11 @@
 <footer class="page-footer">
   <div class="footer-copyright">
     <div class="container">
-      Copyright © 2015 4clouds.io Wszelkie prawa zastrzeżone
+      {% if page.lang == "pl" %}
+          Copyright © 2015 &nbsp;&nbsp; 4clouds.io &nbsp;&nbsp; Wszelkie prawa zastrzeżone.
+      {% else %}
+          Copyright © 2015 &nbsp;&nbsp; 4clouds.io &nbsp;&nbsp; All rights reserverd.
+      {% endif %}
     </div>
   </div>
 </footer>
