@@ -17,10 +17,10 @@
 
 - title: SYSTEMY I APLIKACJE
   body: |
-    Zajmujemy się projektowaniem , wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym.
+    Zajmujemy się projektowaniem, wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym.
     Projektujemy wydajne systemy  bazodanowe oparte na silnikach <b>PostgreSQL</b> i <b>MySQL</b>, z uwzględnieniem replikacji danych przez <b>WAN</b>.
     Naszą specjalnościa są aplikacje webowe (full stack: strona serwerowa oraz oprogramowanie klienta): <b>HTML5</b> + <b>CSS3</b> + <b>JavaScript</b>, <b>nodeJs</b>, <b>jQuery</b>, <b>ExtJs</b>, <b>AngularJs</b>, <b>PHP</b>, <b>Zend Framework</b>, <b>WordPress</b>, <b>Drupal</b>, <b>Java</b>, <b>Android</b>, <b>Tomcat</b>, <b>Spring</b>, <b>GWT</b>.
-    Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: <b>CVS</b>, <b>SVN</b>, <b>GIT</b> w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemami  kontroli wersji oraz  w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: <b>JIRA</b>, <b>Bugzilla</b>, <b>Mantis</b>, <b>HPQC</b>, <b>Testlink</b>.
+    Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: <b>CVS</b>, <b>SVN</b>, <b>GIT</b> w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików, systemach kontroli wersji, w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: <b>JIRA</b>, <b>Bugzilla</b>, <b>Mantis</b>, <b>HPQC</b>, <b>Testlink</b>.
     Do wykorzystania są nasze kompetencje w zakresie programowej obsługi dokumentów <b>PDF</b>, zarządzania obiegiem i podpisem elektronicznym.
     Proponujemy wykonanie zleceń wykorzystujących rozproszone źródła danych: <b>CouchDB</b>,  nierelacyjne bazy danych <b>DynamoDB</b> oraz skalowanie systemów kolejkowania wiadomości: <b>MQTT</b>, <b>AMQP</b>.
   icons:
