@@ -1,44 +1,44 @@
 - title: Cloud migration.
-  slogan: We prepe infrastructure audits, we prepare project plan and we make the migration of your systems to the cloud.
+  slogan: We will prepare an audit of your infrastructure; we will design and perform migration of your systems to the cloud.
   color: grey lighten-2
   cls: 'col s12 m6 l4'
 
-- title: Bezpieczeństwo i koszty
-  slogan: Zagwarantujemy bezpieczeństwo danych i wskażemy optymalny wybór usługi przedstawiając analizę kosztów
+- title: Security and costs
+  slogan: We will ensure the safety of your data and will show the best solution together with cost analysis.
   color: grey lighten-2
   cls: 'col s12 m6 l4'
 
-- title: Systemy i aplikacje
-  slogan: Zaprojektujemy i wykonamy strony/aplikacje przystosowane do chmury realizujące Twoje potrzeby biznesowe
+- title: Systems and applications
+  slogan: We  will design and implement cloud adapted web applications satisfying your business needs and wants.
   color: grey lighten-2
   cls: 'col s12 m12 l4'
 
-- title: Wirtualizacja
-  slogan: Projektowanie i utrzymywanie systemów sieciowych i serwerowych w infrastrukturze wirtualnej.
+- title: Virtualization
+  slogan: Designing and maintenance of server and netword  network systems in the virtual infrastructure.
   color: white
   cls: 'col s12 m6 l4'
 
-- title: Systemy rozproszone
-  slogan: Budowa i nadzór nad rozproszonymi systemami przetwarzania i dostępu do danych.
+- title: Distributed systems
+  slogan: Development and maintenance of distributed processing and data access systems.
   color: white
   cls: 'col s12 m6 l4'
 
-- title: Sieci programowalne
-  slogan: Tworzenie interfejsów do orkiestracji usług sieciowych.
+- title: Software Defined Networking
+  slogan: Development of interfaces for network services orchestration.
+  color: white
+  cls: 'col s12 m6 l4'
+
+- title: Auto-scalable systems
+  slogan: Development of managed IT infrastructure - modern, secured and auto-scalable.
   color: white
   cls: 'col s12 m12 l4'
 
-- title: Systemy samo-skalowalne
-  slogan: Budowa zarządzalnej infrastruktury serwerowej, bezpiecznej, nowoczesnej, samo-skalującej.
+- title: Analysis of IT development methods
+  slogan: Consulting in the area of software development, systems and applications testing and deployment.
   color: white
   cls: 'col s12 m6 l4'
 
-- title: Analiza metod pracy IT
-  slogan: Konsulting w obszarze rozwijania (developmentu), testowania oraz  wdrażania systemów i aplikacji.
-  color: white
-  cls: 'col s12 m6 l4'
-
-- title: Analiza infrastruktury IT
-  slogan: Konsulting w obszarze IaaS, Saas, PaaS z analizą skali oraz wykorzystania modelu "pay per use".
+- title: IT Infrastructure analysis
+  slogan: Consulting in the area of IaaS, Paas and Saas; with scale and "pay per use" model analysis.
   color: white
   cls: 'col s12 m12 l4'

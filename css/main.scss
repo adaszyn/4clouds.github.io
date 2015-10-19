@@ -12,7 +12,8 @@ $body-color: #cfd8dc !default; //blue-grey lighten-4
 $footer-bg-color: #546e7a !default; //blue-grey darken-1
 $h1-fontsize: 5rem !default;
 // Import
-@import "materialize", "syntax-highlighting";
+@import "materialize";
+// @import "syntax-highlighting";
 
 @keyframes background-image-animation {
   0% {
@@ -27,6 +28,14 @@ $h1-fontsize: 5rem !default;
 }
 
 // General
+.cookie-panel {
+  bottom:10px;
+  left:20px;
+  width:400px;
+  height:100px;
+  position: fixed;
+  z-index: 1000;
+}
 body {
   background-color: $body-color;
 }

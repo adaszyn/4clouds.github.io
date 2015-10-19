@@ -1,8 +1,10 @@
 - title: SIECI I SERWERY
   body: |
     Zajmujemy się projektowaniem, wdrażaniem oraz utrzymaniem systemów sieciowych, optymalizując je w zakresie wydajności oraz dostosowania do potrzeb klientów .
-    Naszą specjalnościa są sieci w tym bezprzewodowe   przystosowane do transportu i przechowywania mediów: sieci multicastowe IGMP, PIM, MSDP. Posiadamy kompetencje w zakresie systemów serwerowych, z wykorzystaniem technologii  wirtualizacyjnych VMWare, XEN, KVM ,oraz przechowywania danych, pamięci masowych sieci SAN.
-    Będąc autoryzowanym partnerem największych centrów danych doradzamy wybór dostawcy w modelu IaaS, SaaS,PaaS z analizą skali i wykorzystaniem modelu „pay per use” .Mamy doświadczenie z wykorzystaniem usług Amazon Web Service – EC2, S3, VPC, Route53.
+    Naszą specjalnościa są sieci w tym bezprzewodowe przystosowane do transportu i przechowywania mediów: sieci multicastowe IGMP, PIM, MSDP.
+    Posiadamy kompetencje w zakresie systemów serwerowych, z wykorzystaniem technologii wirtualizacyjnych VMWare, XEN, KVM, oraz przechowywania danych, pamięci masowych sieci SAN.
+    Będąc autoryzowanym partnerem największych centrów danych doradzamy wybór dostawcy w modelu IaaS, SaaS,PaaS z analizą skali i wykorzystaniem modelu "pay per use".
+    Mamy doświadczenie z wykorzystaniem usług Amazon Web Service – EC2, S3, VPC, Route53.
   icons:
     - url: '/img/logos/amazon.png'
       cls: 'col s6 m4 l2 offset-l3'
@@ -15,7 +17,8 @@
 
 - title: SYSTEMY I APLIKACJE
   body: |
-    Zajmujemy się projektowaniem , wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym. Projektujemy wydajne systemy  bazodanowe oparte na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN.
+    Zajmujemy się projektowaniem , wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym.
+    Projektujemy wydajne systemy  bazodanowe oparte na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN.
     Naszą specjalnościa są aplikacje webowe (full stack: strona serwerowa oraz oprogramowanie klienta):HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJs, AngularJs; PHP; Zend Framework, WordPress, Drupal; Java; Android, Tomcat, Spring, GWT;
     Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemami  kontroli wersji oraz  w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink.
     Do wykorzystania są nasze kompetencje w zakresie programowej obsługi dokumentów PDF, zarządzania obiegiem i podpisem elektronicznym

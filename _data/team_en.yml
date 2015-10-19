@@ -1,24 +1,24 @@
 story: |
-    ENG: To przede wszystkim ciągła fascynacja technologią i rewolucją w dostępie do informacji i komunikacji. Spotkaliśmy się na lokalnym uniwersytecie
-    zakładając Uczelniane Centrum Komputerowe w okresie pionierskim Internetu i sieci rozległych. Po kilku latach przenieśliśmy się do jednej z najbardziej
-    zaawansowanej  technologicznie firm  w ZIelonej Górze  Advanced Digital Broadcast, gdzie spotkaliśmy wielu doskonałych inżynierów. Dla nich i z nimi
-    przez kilkanascie lat  skomplikowanych projektach z zakresu infastruktury i systemów IT z zastosowaniem najnowecześniejszych technologii i trendów
-    W trójkę założyliśmy 4clouds.io aby nasza stworzyć własną firmę i propagować nowe trendy, które, w co wierzymy, zasadniczo zmienią świat IT.
+    It is primarily a continuous fascination of technology and revolution in the access to the information.
+    We met at the university, when we created the University Computer Center during the pioneer Internet and wide area networks period.
+    After a few years we moved to one of the most technologically advanced companies in Poland: Advanced Digital Broadcast.
+    In ADB we dealt with challenges that faced us and we met many excellent specialists.
+    For them and with them for several years we were designing and implementing solutions for infrastructure and IT systems using innovative technologies.
+    Together we founded 4clouds.io to pursue our vision of comprehensive services for all who want to use new technologies, getting better quality and spending less.
 partners:
   - name:   Marek Adaszyński
-    title:  Partner, sieci WAN, zarządzanie projektami
+    title:  projects, infrastructure, customer and partners contact
     cls:    col s12 m3 offset-m2 center team-box
     img:    img/team/marek.jpg
 
   - name:   Wojtek Regeńczuk
-    title:  Partner, sieci WAN, zarządzanie projektami
+    title:  solutions, systems, applications, integration
     cls:    col s12 m3 offset-m1 center team-box
     img:    img/team/wojtek.jpg
-team_title: Nasz zespół
+team_title: Our team
 team_body: |
-    To grupa  inżynierów  z  gruntowną wiedzą i unikalnym doświadczeniem w zakresie rozwijania i integrowania systemów IT dla firm.
-    Grupa składająca się z kilkunastu osób ma kompetencje będące kombinacja wiedzy i umiejętności z zakresu projektowania i utrzymywania
-    systemów serwerowych i sieciowych oraz tworzenia i rozwijaania sysetemów. Jesteśmy gotowi na każde wyzwanie.
+    Our team of engineers possess extensive knowledge and unique experience in the area of IT systems designing for large organizations.
+    Various competencies cover the entire range of skills required for the design, development and deployment of complex IT solutions.
 team_items:
   - cls: 'col m2 offset-m1 s6'
     url: '/img/logos/team/coders.svg'

@@ -1,8 +1,9 @@
 - title: SERVERS AND NETWORKS
   body: |
-    Zajmujemy się projektowaniem, wdrażaniem oraz utrzymaniem systemów sieciowych, optymalizując je w zakresie wydajności oraz dostosowania do potrzeb klientów .
-    Naszą specjalnościa są sieci w tym bezprzewodowe   przystosowane do transportu i przechowywania mediów: sieci multicastowe IGMP, PIM, MSDP. Posiadamy kompetencje w zakresie systemów serwerowych, z wykorzystaniem technologii  wirtualizacyjnych VMWare, XEN, KVM ,oraz przechowywania danych, pamięci masowych sieci SAN.
-    Będąc autoryzowanym partnerem największych centrów danych doradzamy wybór dostawcy w modelu IaaS, SaaS,PaaS z analizą skali i wykorzystaniem modelu „pay per use” .Mamy doświadczenie z wykorzystaniem usług Amazon Web Service – EC2, S3, VPC, Route53.
+    We design, implement and maintain network systems, optimizing them in terms of performance and adaptation to customer needs.
+    We specialize in the network designed for the media transport and storage of media: network multicast IGMP, PIM, MSDP.
+    We have expertise in the server systems, applying virtualization technology, VMware, XEN, KVM, and in the storage of data including SAN Being an authorized partner of the largest data centers we advise on selecting  the supplier in the  IaaS, SaaS, PaaS model  with the analysis of the scale and the "pay per use" model use.
+    We are experienced in Amazon Web Service implementation  - EC2, S3, VPC, Route53.
   icons:
     - url: '/img/logos/amazon.png'
       cls: 'col s6 m4 l2 offset-l3'
@@ -15,11 +16,13 @@
 
 - title: SYSTEMS AND APPLICATIONS
   body: |
-    Zajmujemy się projektowaniem , wykonaniem oraz wdrażaniem systemów opartych o architekturę klient - serwer w organizacjach rozproszonych pod względem geograficznym. Projektujemy wydajne systemy  bazodanowe oparte na silnikach PostgreSQL i MySQL, z uwzględnieniem replikacji danych przez WAN.
-    Naszą specjalnościa są aplikacje webowe (full stack: strona serwerowa oraz oprogramowanie klienta):HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJs, AngularJs; PHP; Zend Framework, WordPress, Drupal; Java; Android, Tomcat, Spring, GWT;
-    Posiadamy wieloletnie doświadczenie w zarządzaniu systemami kontroli wersji: CVS, SVN, GIT w tym: w tworzeniu aplikacji webowych do zarządzania uprawnieniami do systemów przechowywania plików oraz systemami  kontroli wersji oraz  w utrzymaniu i administracji systemami zarządzania zadaniami oraz testami: JIRA, Bugzilla, Mantis, HPQC, Testlink.
-    Do wykorzystania są nasze kompetencje w zakresie programowej obsługi dokumentów PDF, zarządzania obiegiem i podpisem elektronicznym
-    Proponujemy wykonanie zleceń wykorzystujących rozproszone źródła danych: np CouchDB,  nierelacyjne bazy danych DynamoDB  oraz skalowanie systemów kolejkowania wiadomości: MQTT, AMQP
+    We design, develop and implement client-server based systems in the geographically distributed organizations.
+    We design efficient database systems based on PostgreSQL and MySQL engines; including data replication over LAN and WAN.
+    We specialize in web applications (full stack: server side and client software): HTML5 + CSS3 + JavaScript; nodeJs, jQuery, ExtJS, AngularJS; PHP; Zend Framework, WordPress, Drupal; Java; Android, Tomcat, Spring, GWT.
+    Our engineers have many years of experience in version control systems management: CVS, SVN, GIT. This experience led to the creation of several systems of file storage and VCS rights management.
+    Another strong pint of ours is the maintenance and administration of issue tracking systems and test case management systems: JIRA, Bugzilla, Mantis, HPQC , TestLink.
+    You are welcome to use our professional competences in the field of PDF documents handling, workflow management and electronic signature.
+    We offer an implementation of projects based on distributed data sources: such as CouchDB, non-relational database and scalable database DynamoDB, as long as Message Queuing systems: MQTT, AMQP.
   icons:
     - url: '/img/logos/android.png'
       cls: 'col l2 m3 s6'
