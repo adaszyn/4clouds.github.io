@@ -13,7 +13,7 @@ relative_permalinks:  true
 sass:
     style: compressed
 compress_html:
-  clippings: all
+  clippings: none
   comments: ["<!-- ", " -->"]
   profile: false
   ignore:

@@ -28,13 +28,19 @@ $h1-fontsize: 5rem !default;
 }
 
 // General
-.cookie-panel {
+#cookie-panel {
   bottom:10px;
   left:20px;
-  width:400px;
-  height:100px;
+  min-width:200px;
   position: fixed;
   z-index: 1000;
+  display:none;
+}
+#cookie-panel a {
+  cursor: pointer;
+}
+#cookie-panel .card-action {
+  height:60px;
 }
 body {
   background-color: $body-color;
@@ -297,6 +303,9 @@ section {
     line-height: 2.1rem;
     text-align: justify;
   }
+  #technology b {
+    font-weight: 400;
+  }
   .technology-logo {
     min-height: 100px;
     min-width: 100px;
@@ -314,7 +323,6 @@ section {
     background-color: white;
   }
 
-
 #team {
   background-color: color("blue-grey", "darken-1");
   color: white;
@@ -331,6 +339,15 @@ section {
   font-size: 1.2rem;
   line-height: 2.1rem;
 }
+  #team li, #team p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    text-align: justify;
+  }
+  #team b {
+    font-weight: 400;
+  }
   .team-image {
     border:3px solid #fafafa;
   }

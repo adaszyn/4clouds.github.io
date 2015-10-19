@@ -1,4 +1,6 @@
 $(function() {
+  $.cookieMsg();
+  $('.modal-trigger').leanModal();
 
   $('.flip-container').on('click', function() {
     var element = document.querySelector(".flip-container");

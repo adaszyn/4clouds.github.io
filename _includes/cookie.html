@@ -1,0 +1,22 @@
+{% if page.lang == "pl" %}
+  {% assign msg = 'Ta strona używa Cookies. Korzystając z niej wyrażasz zgodę na ich używanie.' %}
+  {% assign acceptBtn = 'Akceptuję' %}
+  {% assign moreBtn = 'Więcej' %}
+  {% assign moreUrl = '/privacy-policy/' %}
+{% else %}
+  {% assign msg = 'We use cookies to track usage and preferences.' %}
+  {% assign acceptBtn = 'Accept' %}
+  {% assign moreBtn = 'Learn more' %}
+  {% assign moreUrl = '/en/privacy-policy/' %}
+{% endif %}
+<div id="cookie-panel" class="z-depth-3 card">
+  <div class="card-content valign-wrapper center-align">
+    <p class="valign">
+      {{ msg }}
+    </p>
+  </div>
+  <div class="card-action">
+    <a class="right" id="cookie-accept-btn">{{ acceptBtn }}</a>
+    <a class="right modal-trigger" href="{{ moreUrl }}">{{ moreBtn }}</a>
+  </div>
+</div>
