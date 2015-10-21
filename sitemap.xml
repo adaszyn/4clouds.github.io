@@ -1,0 +1,24 @@
+---
+layout: compress
+title: sitemap
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for post in site.posts %}
+    <url>
+        <loc>http://4clouds.io{{ post.url | remove: 'index.html' }}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.80</priority>
+    </url>
+    {% endfor %}
+
+    {% for page in site.pages %}
+    {% if page.layout != nil and page.title != 'sitemap' and page.permalink != '/privacy-policy/' and page.permalink != '/en/privacy-policy/'%}
+    <url>
+        <loc>http://4clouds.io{{ page.url | remove: 'index.html' }}</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.00</priority>
+    </url>
+    {% endif %}
+    {% endfor %}
+</urlset>
