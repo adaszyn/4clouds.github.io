@@ -1,16 +1,16 @@
 - title: Migracja do chmury.
   slogan: Przygotujemy audyt infrastruktury, przedstawimy projekt oraz wykonamy migrację Twoich systemów do chmury.
-  color: grey lighten-2
+  color: lime lighten-5
   cls: 'col s12 m6 l4'
 
 - title: Bezpieczeństwo i koszty
   slogan: Zagwarantujemy bezpieczeństwo danych i wskażemy optymalny wybór usługi przedstawiając analizę kosztów
-  color: grey lighten-2
+  color: lime lighten-5
   cls: 'col s12 m6 l4'
 
 - title: Systemy i aplikacje
   slogan: Zaprojektujemy i wykonamy strony/aplikacje przystosowane do chmury realizujące Twoje potrzeby biznesowe
-  color: grey lighten-2
+  color: lime lighten-5
   cls: 'col s12 m12 l4'
 
 - title: Wirtualizacja
