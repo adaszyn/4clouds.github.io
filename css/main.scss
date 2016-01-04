@@ -407,7 +407,25 @@ section {
     height: 100%;
     width:100%;
   }
-
+.slider .slides {
+  background-color: transparent;
+}
+video#bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(/img/bg/clouds-dark.jpg) no-repeat;
+  background-size: cover;
+}
 
   /* HACK: IE10+ CSS styles go here */
   @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
